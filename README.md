@@ -1,19 +1,19 @@
 # cpp_starter_project
 
-[![codecov](https://codecov.io/gh/lefticus/cpp_starter_project/branch/master/graph/badge.svg)](https://codecov.io/gh/lefticus/cpp_starter_project)
+[![codecov](https://codecov.io/gh/sridharsridha/cpp_starter_project/branch/master/graph/badge.svg)](https://codecov.io/gh/sridharsridha/cpp_starter_project)
 
-[![Build Status](https://travis-ci.org/lefticus/cpp_starter_project.svg?branch=master)](https://travis-ci.org/lefticus/cpp_starter_project)
+[![Build Status](https://travis-ci.org/sridharsridha/cpp_starter_project.svg?branch=master)](https://travis-ci.org/sridharsridha/cpp_starter_project)
 
-[![Build status](https://ci.appveyor.com/api/projects/status/ro4lbfoa7n0sy74c/branch/master?svg=true)](https://ci.appveyor.com/project/lefticus/cpp-starter-project/branch/master)
+[![Build status](https://ci.appveyor.com/api/projects/status/ro4lbfoa7n0sy74c/branch/master?svg=true)](https://ci.appveyor.com/project/sridharsridha/cpp-starter-project/branch/master)
 
-![CMake](https://github.com/lefticus/cpp_starter_project/workflows/CMake/badge.svg)
+![CMake](https://github.com/sridharsridha/cpp_starter_project/workflows/CMake/badge.svg)
 
 
 ## Getting Started
 
 ### Use the Github template
 First, click the green `Use this template` button near the top of this page.
-This will take you to Github's ['Generate Repository'](https://github.com/lefticus/cpp_starter_project/generate) page. 
+This will take you to Github's ['Generate Repository'](https://github.com/sridharsridha/cpp_starter_project/generate) page. 
 Fill in a repository name and short description, and click 'Create repository from template'. 
 This will allow you to create a new repository in your Github account, 
 prepopulated with the contents of this project. 
