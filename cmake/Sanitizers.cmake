@@ -18,11 +18,7 @@ function(enable_sanitizers project_name)
 
     option(ENABLE_SANITIZER_MEMORY "Enable memory sanitizer" FALSE)
     if(ENABLE_SANITIZER_MEMORY)
-      if(CMAKE_CXX_COMPILER_ID MATCHES "Clang")
-			message("Memory sanitizer is not supported in AppleClang")
-      else()
-        list(APPEND SANITIZERS "memory")
-      endif()
+      list(APPEND SANITIZERS "memory")
     endif()
 
     option(ENABLE_SANITIZER_UNDEFINED_BEHAVIOR
