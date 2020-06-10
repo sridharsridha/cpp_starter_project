@@ -21,15 +21,8 @@ Now you can clone the project locally and get to work!
 
     $ git clone https://github.com/<user>/<your_new_repo>.git
 
-### Remove frameworks you're not going to use
-If you know you're not going to use one or more of the optional gui/graphics 
-frameworks (fltk, gtkmm, imgui, etc.), you can remove them with `git rm`:
-
-    $ git rm -r src/<unnecessary_framework>
-
 ## Dependencies
 
-### Necessary Dependencies
 1. A C++ compiler that supports C++17. 
 See [cppreference.com](https://en.cppreference.com/w/cpp/compiler_support)
 to see which features are supported by each compiler.
@@ -41,30 +34,6 @@ The following compilers should work:
 2. [Conan](https://conan.io/) - it's recommended that you install using 
 [pip](https://pip.pypa.io/en/stable/) 
 3. [CMake 3.15+](https://cmake.org/)
-
-### Optional Dependencies
-This project can be made to work with several optional GUI frameworks. 
-    
-If desired, you should install the following optional dependencies as 
-directed by their documentation, linked here:
- 
-- [FLTK](https://www.fltk.org/doc-1.4/index.html)
-- [GTKMM](https://www.gtkmm.org/en/documentation.html)
-- [QT](https://doc.qt.io/)
-
-The following dependencies can be downloaded automatically by CMake and Conan. 
-All you need to do to install them is to turn on a CMake flag during 
-configuration.
-If you run into difficulty using them, please refer to their documentation,
-linked here:
-
-- [NANA](http://nanapro.org/en-us/documentation/)
-- [SDL](http://wiki.libsdl.org/FrontPage)
-- [IMGUI](https://github.com/ocornut/imgui/tree/master/docs): 
-  This framework depends on SFML, and if you are using Linux, you may need
-  to install several of SFML's dependencies using your package manager. See 
-  [the SFML build tutorial](https://www.sfml-dev.org/tutorials/2.5/compile-with-cmake.php)
-  for specifics.
 
 ## Build Instructions
 
@@ -163,6 +132,3 @@ version of `fmt`.
 ## Testing
 See [Catch2 tutorial](https://github.com/catchorg/Catch2/blob/master/docs/tutorial.md)
 
-## Fuzz testing
-
-See [libFuzzer Tutorial](https://github.com/google/fuzzing/blob/master/tutorial/libFuzzerTutorial.md)
